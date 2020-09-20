@@ -13,10 +13,10 @@ def game_hash
     top_level_hash[:players] = []
   final_hash[:home][:team_name] = "Brooklyn Nets"
   final_hash[:home][:colors] = "Black, White"
-  final_hash[:home][:players] = [players_stats_hash]
+  
   final_hash[:away][:team_name] = "Charlotte Hornets"
   final_hash[:away][:colors] = "Turquoise, Purple"
-  final_hash[:away][:players] = [players_stats_hash]
+  
  binding.pry 
   final_hash
 end
