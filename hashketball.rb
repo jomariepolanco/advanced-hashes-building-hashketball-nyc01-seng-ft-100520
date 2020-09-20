@@ -5,15 +5,15 @@ def game_hash
   #:home & :away => :team_name, :colors, :players = [{player stats (player name, number, shoe, points, rebounds, assists, steals, blocks, slam dunks=> stat value}]
   final_hash = {}
   player_stats_home = {
-    :player_name = "Alan Anderson",
-    :number = 0,
-    :shoe = 16,
-    :points = 22,
-    :rebounds = 12,
-    :assists = 12,
-    :steals = 3,
-    :blocks = 1,
-    :slam_dunks = 1
+    :player_name => "Alan Anderson",
+    :number => 0,
+    :shoe => 16,
+    :points => 22,
+    :rebounds => 12,
+    :assists => 12,
+    :steals => 3,
+    :blocks => 1,
+    :slam_dunks => 1
   }
   player_stats_away  {}
   final_hash[:home] = {}
