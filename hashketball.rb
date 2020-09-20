@@ -120,7 +120,7 @@ def game_hash
   final_hash[:away] = {}
     final_hash[:home][:team_name] = "Brooklyn Nets"
     final_hash[:home][:colors] = "Black, White"
-    final_hash[:home][:players] = [] << player_stats_home
+    final_hash[:home][:players] = player_stats_home
     
     final_hash[:away][:team_name] = "Charlotte Hornets"
     final_hash[:away][:colors] = "Turquoise, Purple"
