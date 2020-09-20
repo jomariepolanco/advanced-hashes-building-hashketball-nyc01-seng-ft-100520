@@ -18,5 +18,4 @@ def game_hash
   
 # binding.pry 
   final_hash
-  puts "hi"
 end
