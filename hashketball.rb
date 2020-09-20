@@ -14,6 +14,6 @@ def game_hash
   final_hash[:home].each do |key,value|
     
   end 
-  binding.pry 
+ # binding.pry 
   final_hash
 end
