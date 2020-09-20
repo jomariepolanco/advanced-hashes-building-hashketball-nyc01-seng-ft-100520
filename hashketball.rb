@@ -11,16 +11,12 @@ def game_hash
     top_level_hash[:team_name] = ""
     top_level_hash[:colors] = ""
     top_level_hash[:players] = []
-  final_hash[:home].each do |key,value|
-    top_level_hash[:team_name] = "Brooklyn Nets"
-    top_level_hash[:colors] = "Black, White"
-    top_level_hash[:players] = [player_stats_hash]
-  end 
-  final_hash[:away].each do |key,value|
-    top_level_hash[:team_name] = "Charlotte Hornets"
-    top_level_hash[:colors] = "Turquoise, Purle"
-    top_level_hash[:players] = [player_stats_hash]
-  end 
+  final_hash[:home][:team_name] = "Brooklyn Nets"
+  final_hash[:home][:colors] = "Black, White"
+  final_hash[:home][:players] = [players_stats_hash]
+  final_hash[:away][:team_name] = "Charlotte Hornets"
+  final_hash[:away][:colors] = "Turquoise, Purple"
+  final_hash[:away][:players] = [players_stats_hash]
  binding.pry 
   final_hash
 end
