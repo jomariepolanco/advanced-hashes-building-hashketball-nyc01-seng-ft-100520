@@ -9,8 +9,7 @@ def game_hash
   final_hash[:away] = {}
     final_hash[:home][:team_name] = "Brooklyn Nets"
     final_hash[:home][:colors] = "Black, White"
-    final_hash[:home][:players] = ["Alan Anderson", "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry"]
-   # final_hash[:home][:players].map {|key| key.to_h}
+    final_hash[:home][:players] = [] << player_stats_hash
     
     final_hash[:away][:team_name] = "Charlotte Hornets"
     final_hash[:away][:colors] = "Turquoise, Purple"
