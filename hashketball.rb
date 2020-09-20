@@ -15,7 +15,7 @@ def game_hash
     :blocks => 1,
     :slam_dunks => 1
   }
-  player_stats_away  {}
+  #player_stats_away  {}
   final_hash[:home] = {}
   final_hash[:away] = {}
     final_hash[:home][:team_name] = "Brooklyn Nets"
@@ -24,7 +24,7 @@ def game_hash
     
     final_hash[:away][:team_name] = "Charlotte Hornets"
     final_hash[:away][:colors] = "Turquoise, Purple"
-    final_hash[:away][:players] = [] << player_stats_away
+   # final_hash[:away][:players] = [] << player_stats_away
   
  binding.pry 
   final_hash
