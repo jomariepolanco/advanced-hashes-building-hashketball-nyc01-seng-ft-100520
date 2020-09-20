@@ -8,11 +8,9 @@ def game_hash
   player_stats_hash = {}
   final_hash[:home] = top_level_hash
   final_hash[:away] = top_level_hash
-  top_level_hash.each do |key,value|
     top_level_hash[:team_name] = ""
     top_level_hash[:colors] = ""
     top_level_hash[:players] = []
-  end 
   
   binding.pry 
   final_hash
