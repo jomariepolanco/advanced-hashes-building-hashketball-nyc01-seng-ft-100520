@@ -4,6 +4,6 @@ def game_hash
   hash = {}.each |key,value|
     hash[:away] = {}
     hash[:home] = {}
-    
+  end 
   hash
 end
