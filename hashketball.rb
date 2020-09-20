@@ -16,7 +16,7 @@ def game_hash
     final_hash[:away][:colors] = "Turquoise, Purple"
     final_hash[:away][:players] = []
   
- binding.pry 
+# binding.pry 
   final_hash
   puts "hi"
 end
