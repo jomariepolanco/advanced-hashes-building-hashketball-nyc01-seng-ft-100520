@@ -16,6 +16,11 @@ def game_hash
     top_level_hash[:colors] = "Black, White"
     top_level_hash[:players] = [player_stats_hash]
   end 
+  final_hash[:away].each do |key,value|
+    top_level_hash[:team_name] = "Charlotte Hornets"
+    top_level_hash[:colors] = "Turquoise, Purle"
+    top_level_hash[:players] = [player_stats_hash]
+  end 
  binding.pry 
   final_hash
 end
