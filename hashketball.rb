@@ -11,7 +11,9 @@ def game_hash
     top_level_hash[:team_name] = ""
     top_level_hash[:colors] = ""
     top_level_hash[:players] = []
-  
+  final_hash[:home].each do |key,value|
+    
+  end 
   binding.pry 
   final_hash
 end
