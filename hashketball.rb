@@ -12,6 +12,6 @@ def game_hash
     top_level_hash[:colors] = ""
     top_level_hash[:players] = []
   
-  binding.pry 
+#  binding.pry 
   final_hash
 end
