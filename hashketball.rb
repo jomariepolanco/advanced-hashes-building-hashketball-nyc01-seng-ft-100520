@@ -8,6 +8,7 @@ def game_hash
   array_hash = {}
   final_hash[:home] = inside_hash
   final_hash[:away] = inside_hash 
+  
   binding.pry 
   final_hash
 end
